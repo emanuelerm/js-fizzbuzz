@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(19, 71, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div:first-of-type {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Imposta lo stile dei figli */
+div:first-of-type div {
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    margin: 0.5rem;
+}
